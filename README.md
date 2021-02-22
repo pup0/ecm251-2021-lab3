@@ -2,10 +2,12 @@
 Este repositório guarda os trabalhos e projetos da disciplina.
 
 # Desenvolvedor:
-## Conrado Pupo Azzalin
+- Conrado Pupo Azzalin
 
 # Linguagens e Frameworks
 - Java
 - Python
 - C
+- Dart
+
  
