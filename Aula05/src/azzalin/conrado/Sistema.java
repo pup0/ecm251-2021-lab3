@@ -1,6 +1,7 @@
 package azzalin.conrado;
 
 import java.util.Scanner;
+
 public class Sistema {
     private boolean continuarExecucao;
     private Scanner scanner;
@@ -16,9 +17,23 @@ public class Sistema {
             while(continuarExecucao){
                 exibirMenu();
                 int opcao = scanner.nextInt();
+                avaliarOpcao(opcao);
             }
 
         }
+
+    private void avaliarOpcao(int opcao) {
+        switch(opcao){
+            case 0:
+                System.out.println("Obrigado por ter utilizado nosso sistema!");
+                this.continuarExecucao = false;
+                break;
+            default:
+                System.out.println("Funcionalidade ainda não implementada");
+                break;
+                
+        }
+    }
 
     private void exibirMenu() {
         System.out.println("Bem Vindo ao MauaBank");
