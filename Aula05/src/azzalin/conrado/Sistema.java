@@ -5,11 +5,14 @@ import java.util.Scanner;
 public class Sistema {
     private boolean continuarExecucao;
     private Scanner scanner;
+    private Conta conta;
+
 
     public Sistema() {
         this.continuarExecucao = true;
         this.scanner = new Scanner(System.in);
-
+        this.conta = new Conta(1236, 1000, "Toad");
+        
 
     }
 
@@ -31,7 +34,7 @@ public class Sistema {
             default:
                 System.out.println("Funcionalidade ainda não implementada");
                 break;
-                
+
         }
     }
 
