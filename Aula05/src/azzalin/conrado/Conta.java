@@ -44,4 +44,8 @@ public class Conta {
                 ", cliente=" + cliente +
                 '}';
     }
+
+    public String GetSaldo() {
+        return;
+    }
 }
