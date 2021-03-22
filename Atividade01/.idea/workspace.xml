@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b9a7ae-01d5-4fe0-a2ec-f43b279d6054" name="Default Changelist" comment="" />
+    <list default="true" id="f7389acf-623b-48cd-8ea6-c6f083013056" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Atividade1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividade1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividade1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividade1/Atividade01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Atividade1/src/azzalin/conrado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05/src/azzalin/conrado/Sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/Aula3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/out/production/Aula3/azzalin/conrado/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/out/production/Aula3/azzalin/conrado/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/out/production/Aula3/azzalin/conrado/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/src/azzalin/conrado/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/src/azzalin/conrado/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula3/src/azzalin/conrado/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Aula3\exportToHTML" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1plhDC5gC0iIT0SdaMNr1DXmLoE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1q7JSUQZ82RsYEW6HZNJ3evhC0b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -82,12 +96,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Aula05" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="azzalin.conrado.Main" />
-      <module name="Aula3" />
+      <module name="Atividade01" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -95,20 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6b9a7ae-01d5-4fe0-a2ec-f43b279d6054" name="Default Changelist" comment="" />
-      <created>1615763466055</created>
+      <changelist id="f7389acf-623b-48cd-8ea6-c6f083013056" name="Default Changelist" comment="" />
+      <created>1616424697291</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615763466055</updated>
+      <updated>1616424697291</updated>
     </task>
     <servers />
   </component>
@@ -123,5 +135,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
