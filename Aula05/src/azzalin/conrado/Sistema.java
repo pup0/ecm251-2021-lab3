@@ -13,7 +13,6 @@ public class Sistema {
         this.scanner = new Scanner(System.in);
         this.conta = new Conta(1236, 1000, "Toad");
 
-
     }
 
     public void executar(){

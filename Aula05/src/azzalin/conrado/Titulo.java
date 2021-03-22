@@ -10,7 +10,7 @@ public class Titulo {
     private String nome;
     private LocalDate dataParaPagamento;
 
-    public Titulo(double valor, double jurosPorDia, String nome, LocalDate dataParaPagamento) {
+    public Titulo(double valor, double jurosPorDia, String nome, String dataParaPagamento) {
         this.valor = valor;
         this.jurosPorDia = jurosPorDia;
         this.nome = nome;
