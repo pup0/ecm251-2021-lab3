@@ -1,6 +1,6 @@
-package azzalin.conrado.pedra_papel_tesoura;
+package azzalin.conrado.pedra_papel_tesoura_2;
 
-import azzalin.conrado.pedra_papel_tesoura.controladores.Sistema;
+import azzalin.conrado.pedra_papel_tesoura_2.controladores.Sistema;
 
 public class Main {
 

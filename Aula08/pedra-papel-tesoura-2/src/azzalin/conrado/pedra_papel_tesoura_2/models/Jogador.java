@@ -1,6 +1,4 @@
-package azzalin.conrado.pedra_papel_tesoura.models;
-
-import azzalin.conrado.pedra_papel_tesoura.models.Jogada;
+package azzalin.conrado.pedra_papel_tesoura_2.models;
 
 public class Jogador {
     private String nome;

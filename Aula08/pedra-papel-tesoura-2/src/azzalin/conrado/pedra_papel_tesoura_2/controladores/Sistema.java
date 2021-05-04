@@ -1,9 +1,11 @@
-package azzalin.conrado.pedra_papel_tesoura.controladores;
+package azzalin.conrado.pedra_papel_tesoura_2.controladores;
 
-import azzalin.conrado.pedra_papel_tesoura.models.*;
-import azzalin.conrado.pedra_papel_tesoura.models.classico.Papel;
-import azzalin.conrado.pedra_papel_tesoura.models.classico.Pedra;
-import azzalin.conrado.pedra_papel_tesoura.models.classico.Tesoura;
+import azzalin.conrado.pedra_papel_tesoura_2.models.*;
+import azzalin.conrado.pedra_papel_tesoura_2.models.bazinga.Lagarto;
+import azzalin.conrado.pedra_papel_tesoura_2.models.bazinga.Spock;
+import azzalin.conrado.pedra_papel_tesoura_2.models.classico.Papel;
+import azzalin.conrado.pedra_papel_tesoura_2.models.classico.Pedra;
+import azzalin.conrado.pedra_papel_tesoura_2.models.classico.Tesoura;
 
 import java.util.Random;
 
@@ -11,7 +13,7 @@ public class Sistema {
     private Jogador player1;
     private Jogador player2;
     private Scanner scanner;
-    private final Jogada[] jogadas = new Jogada[]{new Pedra(), new Papel(), new Tesoura()};
+    private final Jogada[] jogadas = new Jogada[]{new Pedra(), new Papel(), new Tesoura(), new Spock(), new Lagarto()};
 
     public Sistema(){
         this.scanner = new Scanner(System.in);
@@ -39,10 +41,12 @@ public class Sistema {
 
     private Jogada selecionarJogada(){
         int escolha;
-        System.out.println("Escolha:\n0 - Pedra\n1 - Papel\n2 - Tesoura");
+        System.out.println("Escolha:");
+        for(int i = 0; i < jogadas.length; i++){
+            System.out.println(""+i+" - "+jogadas[i]);
+        }
         escolha = scanner.nextInt();
-        Jogada [] jogadas = new Jogada[]{new Pedra(), new Papel(), new Tesoura()};
-        return jogadas[];
+        return jogadas[escolha];
     }
 
     private Jogada sortearJogada(){

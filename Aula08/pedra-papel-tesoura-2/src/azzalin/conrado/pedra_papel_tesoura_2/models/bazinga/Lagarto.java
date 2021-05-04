@@ -1,9 +1,9 @@
-package azzalin.conrado.pedra_papel_tesoura.models.bazinga;
+package azzalin.conrado.pedra_papel_tesoura_2.models.bazinga;
 
-import azzalin.conrado.pedra_papel_tesoura.models.Jogada;
-import azzalin.conrado.pedra_papel_tesoura.models.classico.Papel;
-import azzalin.conrado.pedra_papel_tesoura.models.classico.Pedra;
-import azzalin.conrado.pedra_papel_tesoura.models.classico.Tesoura;
+import azzalin.conrado.pedra_papel_tesoura_2.models.Jogada;
+import azzalin.conrado.pedra_papel_tesoura_2.models.classico.Papel;
+import azzalin.conrado.pedra_papel_tesoura_2.models.classico.Pedra;
+import azzalin.conrado.pedra_papel_tesoura_2.models.classico.Tesoura;
 
 public class Lagarto extends Jogada {
     @java.lang.Override
